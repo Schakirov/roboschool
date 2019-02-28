@@ -1,0 +1,13 @@
+gym_forward_walker  @line119   определены 5 ревордов
+        alive,             progress,             electricity_cost,             joints_at_limit_cost,             feet_collision_cost
+
+~INF~ nan nan nan .....  печатается вот этим  "print("~INF~", state)"     gym_forward_walker  @line100
+
+
+Класс RoboschoolHumanoid  наследует классу  RoboschoolForwardWalkerMujocoXML,
+    а он в свою очередь наследует классам RoboschoolForwardWalker, RoboschoolMujocoXmlEnv    [gym_mujoco_walkers.py]
+    
+HUD из gym_forward_walker @136   определена в RoboschoolMujocoXmlEnv @94
+
+Инициализируется всё с нулевыми скоростями, а joints немножко рандомные
+                рандомность вроде тут   gym_forward_walker @26
